@@ -6,9 +6,10 @@
             alert("Good for you.")
             alert("Here is what you need to do. There's a lot of information, so I would recommend screenshotting it.")
             alert("Leave your home. Drive to the Collingswood PATCO station. Bring Luke, Slater, Lalin, and Isaac. Board the next train into Philadelphia. Ride the train to its final stop, and get off. Walk one block north, then turn to your left, and walk 4 blocks. Turn right, and walk until you see a restaurant that sells milkshakes. Do NOT go inside. Instead, turn left, and walk to the next store.")
-            while(prompt("What is the name of this business?").toUpperCase().includes("JACK") == false)
+            let firstPrompt = ""
+            while(firstPrompt.toUpperCase().includes("JACK") == false)
             {
-                alert("That is not correct, Marmalade. Try again.")
+                prompt("What is the name of the business?")
             }
             
         </script>
