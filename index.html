@@ -1,36 +1,14 @@
 <html>
     <body>
         <script>
-            alert("Hello, Marmalade.")
-            alert("I see you're keeping up.")
-            alert("Good for you.")
-            alert("Here is what you need to do. There's a lot of information, so I would recommend screenshotting it.")
-            alert("Leave your home. Drive to the Collingswood PATCO station. Bring Luke, Slater, Lalin, and Isaac. Board the next train into Philadelphia. Ride the train to its final stop, and get off. Walk one block north, then turn to your left, and walk 4 blocks. Turn right, and walk until you see a restaurant that sells milkshakes. Do NOT go inside. Instead, turn left, and walk to the next store.")
-            let firstPrompt = ""
-            while(firstPrompt.toUpperCase().includes("JACK") == false)
-            {
-                firstPrompt = prompt("What is the name of the business?")
-            }
-            alert("Ok, good. To make sure nobody follows you, enter the store and spend some time there. As much as you want, really.")
-            alert("Once you're done, go back past the Shake Shack, the same way you came. Stay on the left side of the road. You should see a parking lot. Walk past it. If you see a business called Dom's Shoe Repair, duck into the business immediately after it. Spend a little time there. Get yourself something nice to eat. Enjoy yourself. My people will cover it. Come back when you've done that.")
-            let secondPrompt = ""
-            while(secondPrompt.toUpperCase().includes("MACHI") == false)
-            {
-                secondPrompt = prompt("What is the name of the establishment you were just in?")
-            }
-            alert("Good. I hope you enjoyed that. Now double back. Walk back up to the intersection with the parking lot. Turn left. Walk one block, and then turn right. Walk straight until you see an Italian restaurant named Rione. Enter the business immediately before it. Spend some time there.")
-            let thirdPrompt = ""
-            while(thirdPrompt.toUpperCase().includes("MOCHI") == false)
-            {
-                thirdPrompt = prompt("What was that place called?")
-            }
-            alert("Good. Now continue in the same direction. Take your first left and keep walking until you see a bridge. Cross the bridge, and take your second left. On your left, you will see a door. Enter it. Take the elevator up to the top floor of the building. Once you have done this, I will give you your next instructions.")
-            alert("You did all that, yeah?")
-            alert("You sure?")
-            alert("Like, totally sure?")
-            alert("Good.")
-            alert("Happy birthday, Marnie. Enjoy your donuts.")
-             
+            const date1 = new Date('2/19/2023');
+            const date2 = new Date();
+            const diffTime = Math.abs(date2 - date1);
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+            alert("Dude.")
+            alert("You're still looking at this thing?")
+            alert("It's been " + diffDays + " days!")
+            alert("Hope you had a good time of it.")
         </script>
     </body>
 </html>
